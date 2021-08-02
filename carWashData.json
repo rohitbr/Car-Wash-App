@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "carWashName": "Exxon",
+        "address" : "8325 Roswell Rd NE, Sandy Springs, GA 30350",
+        "latitude": 33.82,
+        "longitude": -84.317,
+        "mainImage": "Exxon",
+        "description" : "For more than 135 years, ExxonMobil has been developing quality fuel products to get people where they need to go. From the early days of Standard Oil and Socony-Vacuum Oil, to the brands by which we are known today – Exxon, Mobil, and Esso – we are happy to have played a role in some of America’s most memorable journeys and hope to continue to be part of your journey for decades to come."
+    },
+    {
+        "id": 2,
+        "carWashName": "Car Vacuum",
+        "address" : "Dunwoody, GA 30346",
+        "latitude": 33.927,
+        "longitude": -84.337,
+        "mainImage": "Car_Vacuum",
+        "description" : "🎉🚘Huge BANG for your 💵!!!🎉. This brings you pleasant surprise! Each stage is visible, thorough, & timely enough to have your car SpArKLiNg!✨"
+    },
+    {
+        "id": 3,
+        "carWashName": "Luxury Hand Car Wash Service LLC",
+        "address" : "4479 Chamblee Dunwoody Rd, Dunwoody, GA 30338",
+        "latitude": 33.925,
+        "longitude": -84.313,
+        "mainImage": "Luxury_Hand_Car_Wash_Service_LLC",
+        "description" : "The absolute best car was service around! They are very professional, very quick, and extremely thorough! You won’t find better service! You will never have any complaints after they have completed their service! We get the dog fur off of the carpets??? YES."
+    },
+    {
+        "id": 4,
+        "carWashName": "Cartique",
+        "address" : "4530 Chamblee Dunwoody Rd # B, Dunwoody, GA 30338",
+        "latitude": 33.926,
+        "longitude": -84.415,
+        "mainImage": "Cartique",
+        "description" : "cartique is an amazing place for your car services. This place has being established since 1996. It's a well-structured and fast pace car wash. Very clean inside and outside for the price of 26 dollars only"
+    },
+    {
+        "id": 5,
+        "carWashName": "Sunshine Car Wash",
+        "address" : "1244 Dunwoody Village Pkwy, Dunwoody, GA 30338",
+        "latitude": 33.952,
+        "longitude": -84.337,
+        "mainImage": "Sunshine_Car_Wash",
+        "description" : "Sunshine Carwash provides Excellent Customer Service & Excellent Work. You can get a referral through Honda for exciting offers. It is very satisfactory for customers and in prime location near Perimeter mall. We do EXCELLENT WORK!!!!"
+    },
+    {
+        "id": 6,
+        "carWashName": "BrighT Car Wash",
+        "address" : "4301 N Shallowford Rd #1182, Chamblee, GA 30341",
+        "latitude": 33.923,
+        "longitude": -84.303,
+        "mainImage": "BrighT_Car_Wash",
+        "description" : "This place what your car needs. You don't go through a wash cycle like most car washes do. We use the water hose to rinse your car and wash it from the outside then to the inside. We have great customer service and we do an excellent job cleaning the inside of the car. The pricing is definitely reasonable. Please visit us to get a car wash here if you're near the area."
+    },
+    {
+        "id": 7,
+        "carWashName": "Lakeside Common Auto Details",
+        "address" : "980 Hammond Dr, Atlanta, GA 30328",
+        "latitude": 33.924,
+        "longitude":-84.355,
+        "mainImage": "Lakeside_Common_Auto_Details",
+        "description" : "The professionals at Lakeside Common Auto Details know it's important to always put your best foot forward in Atlanta, so keep your car looking its finest with a quality cleaning. A clean car is all in the details. That's why Lakeside Common Auto Details offers excellent detailing on your car upon request. Whether you need to get rid of dirt or street salt, get the job done with a professional car wash from Lakeside Common Auto Details."
+    },
+    {
+        "id": 8,
+        "carWashName": "Sandy Springs Fast Car Wash",
+        "address" : "6585 Roswell Rd NE, Atlanta, GA 30328",
+        "latitude": 33.938,
+        "longitude":-84.379,
+        "mainImage": "Sandy_Springs_Fast_Car_Wash",
+        "description" : "Super fast and convenient! For a machine it does an amazing job with reasonable prices. Wonderful service and very helpful, friendly and thorough staff. We provide vacuums you can use after getting car washed."
+    },
+    {
+        "id": 9,
+        "carWashName": "Detail Express Car Wash",
+        "address" : "Perimeter Center W, Dunwoody, GA 30346",
+        "latitude": 33.827,
+        "longitude": -84.437,
+        "mainImage": "Detail_Express_Car_Wash",
+        "description" : "Comfortable car wash at the Exxon gas station on Ashford Dunwoody road. Prices are reasonable and similar to other competitors. Offers 4 types of washes including one with hot wax and shine. Purchasing car wash with your gas puts discount on your gas price. Hot air dryer is strong enough and wipes off the excess water from the vehicle."
+    },
+    {
+        "id": 10,
+        "carWashName": "Hand Car Wash Auto Detail",
+        "address" : "6159 Roswell Rd NE, Sandy Springs, GA 30328",
+        "latitude": 33.927,
+        "longitude": -84.378,
+        "mainImage": "Hand_Car_Wash_Auto_Detail",
+        "description" : "Our team is amazing! We were very polite and prompt. Great service for your maintainance of cars. Cars would look brand new. The service is amazing and very very good for the price. We also do interior detailing!"
+    }
+]

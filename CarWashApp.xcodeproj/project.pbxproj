@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A80FB2426AD9C0600850D00 /* CarWashAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB2326AD9C0600850D00 /* CarWashAppApp.swift */; };
+		7A80FB2826AD9C0800850D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A80FB2726AD9C0800850D00 /* Assets.xcassets */; };
+		7A80FB2B26AD9C0800850D00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A80FB2A26AD9C0800850D00 /* Preview Assets.xcassets */; };
+		7A80FB3626AD9C0900850D00 /* CarWashAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB3526AD9C0900850D00 /* CarWashAppTests.swift */; };
+		7A80FB4126AD9C0900850D00 /* CarWashAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB4026AD9C0900850D00 /* CarWashAppUITests.swift */; };
+		7A80FB5226AD9C8D00850D00 /* CarWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB5126AD9C8D00850D00 /* CarWash.swift */; };
+		7A80FB5726AD9CB200850D00 /* carWashData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A80FB5626AD9CB200850D00 /* carWashData.json */; };
+		7A80FB5C26AD9CDF00850D00 /* ListCarWashStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB5B26AD9CDF00850D00 /* ListCarWashStores.swift */; };
+		7A80FB6426AD9D5800850D00 /* PictureListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB6326AD9D5800850D00 /* PictureListView.swift */; };
+		7A80FB6926ADA70900850D00 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB6826ADA70900850D00 /* MapView.swift */; };
+		7A80FB6E26ADA76E00850D00 /* StoreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB6D26ADA76E00850D00 /* StoreCardView.swift */; };
+		7A80FB7326ADA7B500850D00 /* StoreDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB7226ADA7B500850D00 /* StoreDescriptionView.swift */; };
+		7A80FB7E26ADD2E700850D00 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A80FB7D26ADD2E700850D00 /* ViewModifiers.swift */; };
+		7AC7D9BC26B381C6009A8912 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7D9BB26B381C6009A8912 /* ListViewCell.swift */; };
+		7AC7D9C126B38302009A8912 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7D9C026B38302009A8912 /* ListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A80FB3226AD9C0900850D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A80FB1826AD9C0600850D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A80FB1F26AD9C0600850D00;
+			remoteInfo = CarWashApp;
+		};
+		7A80FB3D26AD9C0900850D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A80FB1826AD9C0600850D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A80FB1F26AD9C0600850D00;
+			remoteInfo = CarWashApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A80FB2026AD9C0600850D00 /* CarWashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A80FB2326AD9C0600850D00 /* CarWashAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashAppApp.swift; sourceTree = "<group>"; };
+		7A80FB2726AD9C0800850D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A80FB2A26AD9C0800850D00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A80FB2C26AD9C0800850D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A80FB3126AD9C0900850D00 /* CarWashAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWashAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A80FB3526AD9C0900850D00 /* CarWashAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashAppTests.swift; sourceTree = "<group>"; };
+		7A80FB3726AD9C0900850D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A80FB3C26AD9C0900850D00 /* CarWashAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWashAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A80FB4026AD9C0900850D00 /* CarWashAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashAppUITests.swift; sourceTree = "<group>"; };
+		7A80FB4226AD9C0900850D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A80FB5126AD9C8D00850D00 /* CarWash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash.swift; sourceTree = "<group>"; };
+		7A80FB5626AD9CB200850D00 /* carWashData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carWashData.json; sourceTree = "<group>"; };
+		7A80FB5B26AD9CDF00850D00 /* ListCarWashStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarWashStores.swift; sourceTree = "<group>"; };
+		7A80FB6326AD9D5800850D00 /* PictureListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListView.swift; sourceTree = "<group>"; };
+		7A80FB6826ADA70900850D00 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7A80FB6D26ADA76E00850D00 /* StoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCardView.swift; sourceTree = "<group>"; };
+		7A80FB7226ADA7B500850D00 /* StoreDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDescriptionView.swift; sourceTree = "<group>"; };
+		7A80FB7D26ADD2E700850D00 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		7AC7D9BB26B381C6009A8912 /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		7AC7D9C026B38302009A8912 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A80FB1D26AD9C0600850D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A80FB2E26AD9C0900850D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A80FB3926AD9C0900850D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A80FB1726AD9C0600850D00 = {
+			isa = PBXGroup;
+			children = (
+				7A80FB5626AD9CB200850D00 /* carWashData.json */,
+				7A80FB2226AD9C0600850D00 /* CarWashApp */,
+				7A80FB3426AD9C0900850D00 /* CarWashAppTests */,
+				7A80FB3F26AD9C0900850D00 /* CarWashAppUITests */,
+				7A80FB2126AD9C0600850D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A80FB2126AD9C0600850D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB2026AD9C0600850D00 /* CarWashApp.app */,
+				7A80FB3126AD9C0900850D00 /* CarWashAppTests.xctest */,
+				7A80FB3C26AD9C0900850D00 /* CarWashAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A80FB2226AD9C0600850D00 /* CarWashApp */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB2326AD9C0600850D00 /* CarWashAppApp.swift */,
+				7A80FB9526AF84B800850D00 /* Model */,
+				7A80FB9926AF84DF00850D00 /* ViewModel */,
+				7A80FB8E26AF848900850D00 /* Views */,
+				7A80FB2726AD9C0800850D00 /* Assets.xcassets */,
+				7A80FB2C26AD9C0800850D00 /* Info.plist */,
+				7A80FB2926AD9C0800850D00 /* Preview Content */,
+			);
+			path = CarWashApp;
+			sourceTree = "<group>";
+		};
+		7A80FB2926AD9C0800850D00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB2A26AD9C0800850D00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A80FB3426AD9C0900850D00 /* CarWashAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB3526AD9C0900850D00 /* CarWashAppTests.swift */,
+				7A80FB3726AD9C0900850D00 /* Info.plist */,
+			);
+			path = CarWashAppTests;
+			sourceTree = "<group>";
+		};
+		7A80FB3F26AD9C0900850D00 /* CarWashAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB4026AD9C0900850D00 /* CarWashAppUITests.swift */,
+				7A80FB4226AD9C0900850D00 /* Info.plist */,
+			);
+			path = CarWashAppUITests;
+			sourceTree = "<group>";
+		};
+		7A80FB8E26AF848900850D00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB6326AD9D5800850D00 /* PictureListView.swift */,
+				7A80FB6D26ADA76E00850D00 /* StoreCardView.swift */,
+				7A80FB7226ADA7B500850D00 /* StoreDescriptionView.swift */,
+				7A80FB6826ADA70900850D00 /* MapView.swift */,
+				7A80FB7D26ADD2E700850D00 /* ViewModifiers.swift */,
+				7AC7D9BB26B381C6009A8912 /* ListViewCell.swift */,
+				7AC7D9C026B38302009A8912 /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A80FB9526AF84B800850D00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB5126AD9C8D00850D00 /* CarWash.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A80FB9926AF84DF00850D00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A80FB5B26AD9CDF00850D00 /* ListCarWashStores.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A80FB1F26AD9C0600850D00 /* CarWashApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A80FB4526AD9C0900850D00 /* Build configuration list for PBXNativeTarget "CarWashApp" */;
+			buildPhases = (
+				7A80FB1C26AD9C0600850D00 /* Sources */,
+				7A80FB1D26AD9C0600850D00 /* Frameworks */,
+				7A80FB1E26AD9C0600850D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarWashApp;
+			productName = CarWashApp;
+			productReference = 7A80FB2026AD9C0600850D00 /* CarWashApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A80FB3026AD9C0900850D00 /* CarWashAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A80FB4826AD9C0900850D00 /* Build configuration list for PBXNativeTarget "CarWashAppTests" */;
+			buildPhases = (
+				7A80FB2D26AD9C0900850D00 /* Sources */,
+				7A80FB2E26AD9C0900850D00 /* Frameworks */,
+				7A80FB2F26AD9C0900850D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A80FB3326AD9C0900850D00 /* PBXTargetDependency */,
+			);
+			name = CarWashAppTests;
+			productName = CarWashAppTests;
+			productReference = 7A80FB3126AD9C0900850D00 /* CarWashAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A80FB3B26AD9C0900850D00 /* CarWashAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A80FB4B26AD9C0900850D00 /* Build configuration list for PBXNativeTarget "CarWashAppUITests" */;
+			buildPhases = (
+				7A80FB3826AD9C0900850D00 /* Sources */,
+				7A80FB3926AD9C0900850D00 /* Frameworks */,
+				7A80FB3A26AD9C0900850D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A80FB3E26AD9C0900850D00 /* PBXTargetDependency */,
+			);
+			name = CarWashAppUITests;
+			productName = CarWashAppUITests;
+			productReference = 7A80FB3C26AD9C0900850D00 /* CarWashAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A80FB1826AD9C0600850D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7A80FB1F26AD9C0600850D00 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7A80FB3026AD9C0900850D00 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7A80FB1F26AD9C0600850D00;
+					};
+					7A80FB3B26AD9C0900850D00 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7A80FB1F26AD9C0600850D00;
+					};
+				};
+			};
+			buildConfigurationList = 7A80FB1B26AD9C0600850D00 /* Build configuration list for PBXProject "CarWashApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A80FB1726AD9C0600850D00;
+			productRefGroup = 7A80FB2126AD9C0600850D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A80FB1F26AD9C0600850D00 /* CarWashApp */,
+				7A80FB3026AD9C0900850D00 /* CarWashAppTests */,
+				7A80FB3B26AD9C0900850D00 /* CarWashAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A80FB1E26AD9C0600850D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A80FB5726AD9CB200850D00 /* carWashData.json in Resources */,
+				7A80FB2B26AD9C0800850D00 /* Preview Assets.xcassets in Resources */,
+				7A80FB2826AD9C0800850D00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A80FB2F26AD9C0900850D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A80FB3A26AD9C0900850D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A80FB1C26AD9C0600850D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A80FB7E26ADD2E700850D00 /* ViewModifiers.swift in Sources */,
+				7A80FB5C26AD9CDF00850D00 /* ListCarWashStores.swift in Sources */,
+				7A80FB7326ADA7B500850D00 /* StoreDescriptionView.swift in Sources */,
+				7A80FB6926ADA70900850D00 /* MapView.swift in Sources */,
+				7AC7D9C126B38302009A8912 /* ListView.swift in Sources */,
+				7A80FB6426AD9D5800850D00 /* PictureListView.swift in Sources */,
+				7A80FB2426AD9C0600850D00 /* CarWashAppApp.swift in Sources */,
+				7A80FB5226AD9C8D00850D00 /* CarWash.swift in Sources */,
+				7AC7D9BC26B381C6009A8912 /* ListViewCell.swift in Sources */,
+				7A80FB6E26ADA76E00850D00 /* StoreCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A80FB2D26AD9C0900850D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A80FB3626AD9C0900850D00 /* CarWashAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A80FB3826AD9C0900850D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A80FB4126AD9C0900850D00 /* CarWashAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A80FB3326AD9C0900850D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A80FB1F26AD9C0600850D00 /* CarWashApp */;
+			targetProxy = 7A80FB3226AD9C0900850D00 /* PBXContainerItemProxy */;
+		};
+		7A80FB3E26AD9C0900850D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A80FB1F26AD9C0600850D00 /* CarWashApp */;
+			targetProxy = 7A80FB3D26AD9C0900850D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A80FB4326AD9C0900850D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A80FB4426AD9C0900850D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A80FB4626AD9C0900850D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarWashApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R6R4NBVDS9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarWashApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.com.page.CarWashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A80FB4726AD9C0900850D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarWashApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R6R4NBVDS9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarWashApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.com.page.CarWashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A80FB4926AD9C0900850D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6R4NBVDS9;
+				INFOPLIST_FILE = CarWashAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.com.page.CarWashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWashApp.app/CarWashApp";
+			};
+			name = Debug;
+		};
+		7A80FB4A26AD9C0900850D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6R4NBVDS9;
+				INFOPLIST_FILE = CarWashAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.com.page.CarWashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWashApp.app/CarWashApp";
+			};
+			name = Release;
+		};
+		7A80FB4C26AD9C0900850D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6R4NBVDS9;
+				INFOPLIST_FILE = CarWashAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.com.page.CarWashAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWashApp;
+			};
+			name = Debug;
+		};
+		7A80FB4D26AD9C0900850D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6R4NBVDS9;
+				INFOPLIST_FILE = CarWashAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.com.page.CarWashAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWashApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A80FB1B26AD9C0600850D00 /* Build configuration list for PBXProject "CarWashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A80FB4326AD9C0900850D00 /* Debug */,
+				7A80FB4426AD9C0900850D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A80FB4526AD9C0900850D00 /* Build configuration list for PBXNativeTarget "CarWashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A80FB4626AD9C0900850D00 /* Debug */,
+				7A80FB4726AD9C0900850D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A80FB4826AD9C0900850D00 /* Build configuration list for PBXNativeTarget "CarWashAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A80FB4926AD9C0900850D00 /* Debug */,
+				7A80FB4A26AD9C0900850D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A80FB4B26AD9C0900850D00 /* Build configuration list for PBXNativeTarget "CarWashAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A80FB4C26AD9C0900850D00 /* Debug */,
+				7A80FB4D26AD9C0900850D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A80FB1826AD9C0600850D00 /* Project object */;
+}
